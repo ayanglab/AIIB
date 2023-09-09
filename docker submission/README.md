@@ -53,9 +53,9 @@ docker build -f Dockerfile -t [teamname] .
 
 ### Step 3. Docker running commands
 Your container will be run with the following command:
-···
+```
 docker run --rm -v [input directory]:/input -v [output directory]:/output -it [teamname]
-···
+```
 
 [input directory] will be the absolute path of our directory containing the test set, [output directory] will be the absolute path of the prediction directory.
 
